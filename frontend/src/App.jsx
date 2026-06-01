@@ -96,7 +96,11 @@ const filteredInfluencers = influencers
             <th className="p-3 text-center">Category</th>
             <th className="p-3 text-center">Authenticity Score</th>
             <th className="p-3 text-center">Growth Score</th>
+            <th className="p-3 text-center">Best Brand</th>
+            <th className="p-3 text-center">Brand Match</th>
             <th className="p-3 text-center">Ratefluencer Score</th>
+            
+            
           </tr>
         </thead>
 
@@ -118,6 +122,8 @@ const filteredInfluencers = influencers
   {i.authenticity}
 </td>
 <td className="p-3 text-center font-bold">{i.growth_score}</td>
+<td className="p-3 text-center">{i.best_brand}</td>
+<td className="p-3 text-center font-bold">{i.brand_match_score}</td>
 <td className="p-3 text-center font-bold text-purple-400">
   {i.ratefluencer_score}
 </td>
