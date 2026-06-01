@@ -20,18 +20,20 @@ function App() {
       <table className="w-full border border-slate-700">
         <thead>
           <tr className="bg-slate-800">
-            <th className="p-3">Username</th>
-            <th className="p-3">Followers</th>
-            <th className="p-3">Category</th>
+            <th className="p-3 text-center">Username</th>
+            <th className="p-3 text-center">Followers</th>
+            <th className="p-3 text-center">Category</th>
+            <th className="p-3 text-center">Authenticity Score</th>
           </tr>
         </thead>
 
         <tbody>
           {influencers.map((i, idx) => (
             <tr key={idx} className="border-t border-slate-700">
-              <td className="p-3">{i.username}</td>
-              <td className="p-3">{i.followers}</td>
-              <td className="p-3">{i.category}</td>
+              <td className="p-3 text-center">{i.username}</td>
+              <td className="p-3 text-center">{i.followers}</td>
+              <td className="p-3 text-center">{i.category}</td>
+              <td className="p-3 text-center">{i.authenticity}</td>
             </tr>
           ))}
         </tbody>
