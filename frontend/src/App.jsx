@@ -50,7 +50,7 @@ const filteredInfluencers = influencers
 
       <div className="bg-slate-900 border border-slate-700 rounded-xl p-5">
         <p className="text-slate-400">Categories</p>
-        <h2 className="text-3xl font-bold">{categories.length - 1}</h2>
+        <h2 className="text-3xl font-bold">{new Set(influencers.map(i => i.category)).size}</h2>
       </div>
 
       <div className="bg-slate-900 border border-slate-700 rounded-xl p-5">
@@ -95,6 +95,7 @@ const filteredInfluencers = influencers
             <th className="p-3 text-center">Followers</th>
             <th className="p-3 text-center">Category</th>
             <th className="p-3 text-center">Authenticity Score</th>
+            <th className="p-3 text-center">Growth Score</th>
           </tr>
         </thead>
 
@@ -104,9 +105,20 @@ const filteredInfluencers = influencers
               <td className="p-3 text-center">{i.username}</td>
               <td className="p-3 text-center">{i.followers}</td>
               <td className="p-3 text-center">{i.category}</td>
-              <td className="p-3 text-center font-bold">
-                {i.authenticity}
-              </td>
+              <td
+  className={`p-3 text-center font-bold ${
+    i.authenticity >= 85
+      ? "text-green-400"
+      : i.authenticity >= 70
+      ? "text-yellow-400"
+      : "text-red-400"
+  }`}
+>
+  {i.authenticity}
+</td>
+<td className="p-3 text-center font-bold">{i.growth_score}</td>
+                
+              
             </tr>
           ))}
         </tbody>
