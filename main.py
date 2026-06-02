@@ -1,20 +1,6 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+import os
+import sys
 
-app = FastAPI(title="Ratefluencer AI API")
+sys.path.append(os.path.join(os.path.dirname(__file__), "backend"))
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-@app.get("/")
-def home():
-    return {"message": "Ratefluencer AI Backend is running"}
-
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+from backend.main import app
