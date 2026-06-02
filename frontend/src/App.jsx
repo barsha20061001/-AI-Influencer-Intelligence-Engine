@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
   axios
-    .get("https://ai-influencer-intelligence-engine.onrender.com")
+    .get("https://ai-influencer-intelligence-engine.onrender.com/influencers")
     .then((res) => {
       setInfluencers(res.data);
       setLoading(false);
