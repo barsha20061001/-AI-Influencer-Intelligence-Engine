@@ -1,0 +1,12 @@
+username,followers,following,likes,comments,shares,saves,views,posts_per_week,category,audience_age,audience_country,audience_expansion,engagement_spike
+techguru,120000,500,8200,450,300,700,45000,5,Technology,25-34,USA,85,1.1
+fitlife,90000,700,6500,350,250,600,38000,6,Fitness,18-24,India,92,1.0
+financeking,150000,900,9200,520,410,850,60000,4,Finance,35-44,UK,75,1.2
+travelwithme,80000,400,5000,280,220,500,32000,3,Travel,25-34,France,88,1.1
+gamerzone,200000,1000,15000,800,650,1200,90000,7,Gaming,18-24,USA,95,1.4
+foodworld,110000,600,7000,400,300,700,42000,5,Food,25-34,India,80,1.0
+fashionstar,175000,850,12000,650,500,1000,75000,6,Fashion,18-24,Italy,90,1.3
+
+
+
+
