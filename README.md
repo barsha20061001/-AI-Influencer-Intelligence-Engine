@@ -2,7 +2,7 @@
 
 An AI-powered influencer analysis platform that evaluates influencer profiles, calculates performance scores, and recommends suitable brand collaborations. The system analyzes engagement, audience demographics, authenticity, growth trends, and niche relevance to generate actionable insights for brands and marketers.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Frontend:**  
 https://ai-influencer-intelligence-engine.vercel.app/
@@ -15,7 +15,7 @@ https://ai-influencer-intelligence-engine.onrender.com/influencers
 
 ---
 
-## ✨ Features
+## Features
 
 - AI-based influencer scoring system
 - Audience analysis and demographic insights
@@ -29,7 +29,7 @@ https://ai-influencer-intelligence-engine.onrender.com/influencers
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React.js
@@ -54,7 +54,7 @@ https://ai-influencer-intelligence-engine.onrender.com/influencers
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AI-Influencer-Intelligence-Engine/
@@ -91,7 +91,7 @@ AI-Influencer-Intelligence-Engine/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Clone Repository
 
@@ -129,7 +129,7 @@ http://localhost:5173
 
 ---
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Home
 
@@ -177,7 +177,7 @@ Returns analyzed influencer data including:
 
 ---
 
-## 🧠 Scoring Logic
+## Scoring Logic
 
 ### Authenticity Score
 - Engagement consistency
@@ -205,7 +205,7 @@ to generate the final influencer rating.
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 ```json
 {
@@ -219,7 +219,7 @@ to generate the final influencer rating.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Real social media API integration
 - Advanced machine learning models
@@ -230,14 +230,18 @@ to generate the final influencer rating.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Barsha Mondal**
 
 GitHub: https://github.com/barsha20061001
 
+**Harsh Sahu**
+
+GitHub: https://github.com/hsahu1726
+
 ---
 
-## 📜 License
+## License
 
-This project is developed for educational and internship assessment purposes.
+This project was developed as part of the RateInfluencer Hackathon submission. It is intended solely for hackathon evaluation, learning, research, and demonstration purposes. The project is not an official product of RateInfluencer and is not intended for commercial deployment without appropriate review, testing, and authorization.
