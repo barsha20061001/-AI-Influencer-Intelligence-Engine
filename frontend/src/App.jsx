@@ -29,7 +29,7 @@ const filteredInfluencers = influencers
   .filter((i) =>
     category === "All" ? true : i.category === category
   )
-  .sort((a, b) => b.authenticity - a.authenticity);
+  .sort((a, b) => b.ratefluencer_score - a.ratefluencer_score);
 
   
   return (
@@ -91,6 +91,7 @@ const filteredInfluencers = influencers
       <table className="w-full border border-slate-700">
         <thead>
           <tr className="bg-slate-800">
+            <th className="p-3 text-center">Rank</th>
             <th className="p-3 text-center">Username</th>
             <th className="p-3 text-center">Followers</th>
             <th className="p-3 text-center">Category</th>
@@ -98,9 +99,12 @@ const filteredInfluencers = influencers
             <th className="p-3 text-center">Growth Score</th>
             <th className="p-3 text-center">Best Brand</th>
             <th className="p-3 text-center">Brand Match</th>
+            <th className="p-3 text-center">Brand Reason</th>
+            <th className="p-3 text-center">ML Prediction</th>
             <th className="p-3 text-center">Ratefluencer Score</th>
             <th className="p-3 text-center">Audience</th>
             <th className="p-3 text-center">Expansion</th>
+            
             
             
           </tr>
@@ -109,6 +113,7 @@ const filteredInfluencers = influencers
         <tbody>
           {filteredInfluencers.map((i, idx) => (
             <tr key={idx} className="border-t border-slate-700">
+              <td className="p-3 text-center font-bold"> #{idx + 1}</td>
               <td className="p-3 text-center">{i.username}</td>
               <td className="p-3 text-center">{i.followers}</td>
               <td className="p-3 text-center">{i.category}</td>
@@ -126,6 +131,12 @@ const filteredInfluencers = influencers
 <td className="p-3 text-center font-bold">{i.growth_score}</td>
 <td className="p-3 text-center">{i.best_brand}</td>
 <td className="p-3 text-center font-bold">{i.brand_match_score}</td>
+<td className="p-3 text-center text-sm text-slate-300">
+  {i.brand_reason}
+</td>
+<td className="p-3 text-center font-bold text-cyan-400">
+  {i.ratefluencer_score}%
+</td>
 <td className="p-3 text-center font-bold text-purple-400">
   {i.ratefluencer_score}
 </td>
