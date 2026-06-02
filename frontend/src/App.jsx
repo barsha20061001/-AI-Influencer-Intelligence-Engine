@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
   axios
-    .get("http://127.0.0.1:8000/influencers")
+    .get("https://your-backend.onrender.com/influencers")
     .then((res) => {
       setInfluencers(res.data);
       setLoading(false);
