@@ -5,7 +5,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "backend"))
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from services.data_service import get_influencers
+from backend.services.data_service import get_influencers
 
 app = FastAPI(title="Ratefluencer AI API")
 
