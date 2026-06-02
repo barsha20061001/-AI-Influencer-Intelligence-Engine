@@ -1,11 +1,11 @@
 import pandas as pd
 import os
 
-from backend.services.authenticity_service import calculate_authenticity
-from backend.services.growth_service import calculate_growth_score
-from backend.services.score_service import calculate_ratefluencer_score
-from backend.services.brand_service import match_brand
-from backend.services.ml_service import train_ml_model
+from services.authenticity_service import calculate_authenticity
+from services.growth_service import calculate_growth_score
+from services.score_service import calculate_ratefluencer_score
+from services.brand_service import match_brand
+from services.ml_service import train_ml_model
 
 def get_influencers():
 
