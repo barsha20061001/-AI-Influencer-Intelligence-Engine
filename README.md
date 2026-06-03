@@ -21,6 +21,13 @@ https://drive.google.com/file/d/1U1mQJw6OC_UZlEHpexaIpaj6rYKNB7pv/view?usp=drive
 
 ---
 
+## Demo Video
+
+https://drive.google.com/file/d/1Sm4PIzmMrtPZagIFCfeUpIVRkrcvtygj/view?usp=drivesdk
+
+---
+
+
 ## Features
 
 - AI-based influencer scoring system
