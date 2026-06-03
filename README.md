@@ -15,6 +15,12 @@ https://ai-influencer-intelligence-engine.onrender.com/influencers
 
 ---
 
+## Presentation Deck
+
+https://drive.google.com/file/d/1U1mQJw6OC_UZlEHpexaIpaj6rYKNB7pv/view?usp=drivesdk
+
+---
+
 ## Features
 
 - AI-based influencer scoring system
